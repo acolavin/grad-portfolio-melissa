@@ -79,7 +79,6 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -87,17 +86,68 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
 
 
+.container {
+    width: 640px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;    
+}
+
+.container_sub {
+    width: 640px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;    
+}
 
 
+.mainimage {
+    width:320px;
+    height:280px;
+    background-image: url('../img/brain.png');
+    background-color: #ffffff;
+    float:left;
+}
 
 
+.mainbuttons {
+    width:320px;
+    height:280px;
+    margin-left: 320px;
+    padding-top: 30px;
 
+}
 
+.button {
+    width: 320px;
+    font-size: 155%;
+}
+.button a {
+    margin: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contentbox {
+    width: 620px;
+    padding: 10px 30px;
+    background-color:#660000;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
 
 
